@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>先锋工作室仓库索引</title>
+<style>
+  * { box-sizing: border-box; }
+  body { font-family: "Microsoft YaHei", "Segoe UI", sans-serif; margin: 0;
+         background: linear-gradient(180deg, #EAF2FC 0%, #F7F9FC 320px);
+         color: #2C3E50; min-height: 100vh; }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 0 20px 40px; }
+
+  /* 顶部横幅 */
+  header { background: linear-gradient(135deg, #1E6FD9 0%, #3B82F6 60%, #5B8DEF 100%);
+           border-radius: 0 0 18px 18px; padding: 34px 34px 28px; color: #fff;
+           box-shadow: 0 4px 18px rgba(30,111,217,.28); }
+  header h1 { margin: 0 0 6px; font-size: 26px; letter-spacing: 1px; }
+  header p { margin: 0; opacity: .85; font-size: 13px; }
+  header .stats { margin-top: 14px; display: flex; gap: 10px; flex-wrap: wrap; }
+  .stat { background: rgba(255,255,255,.16); backdrop-filter: blur(4px);
+          border: 1px solid rgba(255,255,255,.25); border-radius: 20px;
+          padding: 4px 14px; font-size: 12px; }
+  .stat b { font-size: 14px; margin-right: 4px; }
+
+  /* 卡片 */
+  .card { background: #fff; border: 1px solid #DCE6F2; border-radius: 12px;
+          padding: 18px 22px; margin: 18px 0;
+          box-shadow: 0 1px 4px rgba(44,62,80,.06);
+          transition: box-shadow .2s, transform .2s; }
+  .card:hover { box-shadow: 0 6px 20px rgba(30,111,217,.13); transform: translateY(-2px); }
+  .card .head { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
+  .card h2 { margin: 0; font-size: 20px; color: #1E6FD9; }
+  .card .en { color: #97A6B8; font-size: 13px; font-weight: normal; margin-left: 2px; }
+  .card .desc { color: #6B7A8D; font-size: 13px; margin: 6px 0 0; }
+
+  /* 徽章 */
+  .badge { display: inline-block; font-size: 11.5px; padding: 3px 10px; border-radius: 12px;
+           font-weight: 500; }
+  .b-plugin { background: #EAF1FD; color: #2563EB; border: 1px solid #C9DCF5; }
+  .b-app    { background: #FDF3E3; color: #B9770E; border: 1px solid #F0DDB8; }
+  .b-free   { background: #E8F8EE; color: #1E8E4E; border: 1px solid #C4E9D2; }
+  .b-paid   { background: #FDECEC; color: #C0392B; border: 1px solid #F2CFCF; }
+  .b-price  { background: #C0392B; color: #fff; border: 1px solid #C0392B; font-weight: 600; }
+  .b-cat    { background: #F0F4F8; color: #5B7A99; border: 1px solid #DCE4EC; }
+
+  /* 搜索框下方的分类标签栏 */
+  .cats { display: none; gap: 8px; flex-wrap: wrap; margin: 12px 0 0; }
+  .cbtn { border: 1px solid #D5DEE8; background: #fff; color: #4A5D73; cursor: pointer;
+          padding: 5px 14px; border-radius: 16px; font-size: 12.5px; font-family: inherit;
+          transition: all .15s; }
+  .cbtn:hover { border-color: #3B82F6; color: #2563EB; }
+  .cbtn-on { background: #2563EB; border-color: #2563EB; color: #fff; }
+
+  /* 表格 */
+  table { border-collapse: collapse; width: 100%; margin-top: 12px; font-size: 13px; }
+  th { background: #F2F7FC; text-align: left; padding: 8px 12px; color: #4A5D73;
+       border-bottom: 2px solid #D5DEE8; font-size: 12.5px; letter-spacing: .5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #EDF2F7; }
+  tr:hover td { background: #F5F9FE; }
+  .ver { font-weight: 600; color: #1E6FD9; }
+  .dim { color: #8494A7; }
+
+  /* 下载链接 → 按钮 */
+  .dl { display: inline-block; padding: 3px 12px; border-radius: 6px;
+        background: #EAF1FD; color: #2563EB !important; text-decoration: none;
+        font-size: 12.5px; border: 1px solid #C9DCF5; transition: all .15s; }
+  .dl:hover { background: #2563EB; color: #fff !important; text-decoration: none; }
+  .dl-gh { background: #EAF1FD; border-color: #C9DCF5; color: #2563EB !important; }
+  .dl-bd { background: #E8F8EE; border-color: #C4E9D2; color: #1E8E4E !important; }
+  .dl-bd:hover { background: #1E8E4E; }
+  .dl-doc { background: #FDF3E3; border-color: #F0DDB8; color: #B9770E !important; }
+  .dl-doc:hover { background: #B9770E; }
+  .none { color: #C3CDD8; }
+
+  /* 更新备注区块（表格下方，支持多行） */
+  .notes { margin-top: 14px; }
+  .notes-title { font-size: 12.5px; color: #5B7A99; font-weight: 600;
+                 letter-spacing: .5px; margin-bottom: 8px; }
+  .note-item { display: flex; gap: 10px; padding: 8px 12px; border-radius: 8px;
+               background: #F7F9FC; border: 1px solid #E8EEF5; margin-bottom: 6px; }
+  .note-item:last-child { margin-bottom: 0; }
+  .note-ver { flex: none; font-size: 12px; font-weight: 600; color: #2563EB;
+              background: #EAF1FD; border: 1px solid #C9DCF5; border-radius: 6px;
+              padding: 1px 8px; height: fit-content; margin-top: 1px; }
+  .note-body { font-size: 12.5px; color: #5B6B7E; line-height: 1.7;
+               white-space: normal; word-break: break-word; }
+
+  /* 状态徽章 */
+  .st { display: inline-block; font-size: 11px; padding: 2px 8px; border-radius: 4px; }
+  .st-both { background: #E8F8EE; color: #1E8E4E; border: 1px solid #C4E9D2; }
+  .st-gh   { background: #EAF1FD; color: #2563EB; border: 1px solid #C9DCF5; }
+  .st-bd   { background: #E8F8EE; color: #1E8E4E; border: 1px solid #C4E9D2; }
+  .st-wait { background: #EDF1F5; color: #8494A7; border: 1px solid #D8E0E8; }
+
+  /* 搜索框 + 筛选 */
+  .toolbar { margin: 18px 0 0; display: flex; gap: 10px; }
+  .search { position: relative; flex: 1; }
+  .search input { width: 100%; box-sizing: border-box; padding: 10px 14px 10px 40px;
+                  border: 1px solid #D5DEE8; border-radius: 10px; font-size: 14px;
+                  outline: none; background: #fff; transition: border .2s, box-shadow .2s; }
+  .search input:focus { border-color: #3B82F6; box-shadow: 0 0 0 3px rgba(59,130,246,.15); }
+  .search .ico { position: absolute; left: 13px; top: 50%; transform: translateY(-50%);
+                 color: #97A6B8; font-size: 15px; pointer-events: none; }
+  .filters { display: flex; gap: 6px; align-items: center; }
+  .fbtn { border: 1px solid #D5DEE8; background: #fff; color: #4A5D73; cursor: pointer;
+          padding: 8px 16px; border-radius: 10px; font-size: 13px; font-family: inherit;
+          transition: all .15s; }
+  .fbtn:hover { border-color: #3B82F6; color: #2563EB; }
+  .fbtn.on { background: #3B82F6; border-color: #3B82F6; color: #fff; }
+  .fbtn.on-fee { background: #1E8E4E; border-color: #1E8E4E; }
+  .card.hidden { display: none; }
+  .empty { text-align: center; color: #97A6B8; padding: 40px 0; display: none; }
+
+  footer { text-align: center; color: #A5B3C2; font-size: 12px; margin-top: 26px; }
+
+  @media (max-width: 720px) {
+    header { padding: 24px 20px 20px; border-radius: 0 0 12px 12px; }
+    .card { padding: 14px 14px; }
+    table { font-size: 12px; }
+    td, th { padding: 6px 6px; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>🗄 先锋工作室仓库索引</h1>
+  <p>所有软件版本与下载链接总览 · 生成时间 2026-09-10 10:38</p>
+  <div class="stats">
+    <span class="stat"><b>1</b>个软件</span>
+    <span class="stat"><b>1</b>个版本</span>
+    <span class="stat"><b>1</b>个免费</span>
+    <span class="stat"><b>0</b>个收费</span>
+  </div>
+</header>
+<div class="wrap">
+<div class="toolbar">
+  <div class="search">
+    <span class="ico">🔍</span>
+    <input id="kw" type="text" placeholder="搜索软件名称 / 中文名 / 版本号..." autocomplete="off">
+  </div>
+  <div class="filters">
+    <button class="fbtn on" data-f="all">全部</button>
+    <button class="fbtn" data-f="free">免费</button>
+    <button class="fbtn" data-f="paid">收费</button>
+  </div>
+</div>
+<div class="cats" id="cats"></div>
+<div class="empty" id="empty">没有匹配的软件</div><div class="card" data-fee="free" data-cat="方舟生存进化" data-kw="backupcharacter 备份角色 方舟生存进化 1.0">
+<div class="head"><h2>备份角色</h2><span class="en">BackupCharacter</span><span class="badge b-cat">方舟生存进化</span><span class="badge b-plugin">插件</span><span class="badge b-free">免费</span></div>
+<table>
+<tr><th>状态</th><th>版本</th><th>发布时间</th><th>大小</th><th>GitHub</th><th>百度网盘</th><th>服主教程</th><th>玩家教程</th><th>软件简介</th></tr>
+<tr><td><span class="st st-both">GitHub/百度</span></td><td><span class="ver">1.0</span></td><td class="dim">2026-09-10</td><td class="dim">0.13 MB</td><td><a class="dl dl-gh" href="https://github.com/XFRelease/ARK-Survival-Evolved_BackupCharacter/releases/download/v1.0/BackupCharacter_v1.0.zip" target="_blank">下载</a></td><td><a class="dl dl-bd" href="https://pan.baidu.com/s/1V8fZkPMDRE5RlFWP-YQFog?pwd=9xfs" target="_blank">下载</a></td><td><a class="dl dl-doc" href="https://XFRelease.github.io/ARK-Survival-Evolved_BackupCharacter/docs/%E6%9C%8D%E4%B8%BB%E6%95%99%E7%A8%8B.html" target="_blank">在线查看</a></td><td><a class="dl dl-doc" href="https://XFRelease.github.io/ARK-Survival-Evolved_BackupCharacter/docs/%E7%8E%A9%E5%AE%B6%E6%95%99%E7%A8%8B.html" target="_blank">在线查看</a></td><td><a class="dl dl-doc" href="https://XFRelease.github.io/ARK-Survival-Evolved_BackupCharacter/docs/%E8%BD%AF%E4%BB%B6%E7%AE%80%E4%BB%8B.html" target="_blank">在线查看</a></td></tr>
+</table>
+</div>
+</div>
+<footer>由 ReleaseManager 自动生成 · 仅供内部使用</footer>
+<script>
+(function () {
+  var kw = document.getElementById('kw');
+  var cards = Array.prototype.slice.call(document.querySelectorAll('.card'));
+  var empty = document.getElementById('empty');
+  var filter = 'all';
+  var cat = '';
+
+  function apply() {
+    var v = kw.value.trim().toLowerCase();
+    var shown = 0;
+    cards.forEach(function (c) {
+      var hitKw = !v || c.getAttribute('data-kw').indexOf(v) !== -1;
+      var hitFee = filter === 'all' || c.getAttribute('data-fee') === filter;
+      var hitCat = !cat || c.getAttribute('data-cat') === cat;
+      var hit = hitKw && hitFee && hitCat;
+      c.classList.toggle('hidden', !hit);
+      if (hit) shown++;
+    });
+    empty.style.display = shown ? 'none' : 'block';
+  }
+
+  kw.addEventListener('input', apply);
+
+  Array.prototype.forEach.call(document.querySelectorAll('.fbtn'), function (b) {
+    b.addEventListener('click', function () {
+      document.querySelector('.fbtn.on').classList.remove('on');
+      b.classList.add('on');
+      filter = b.getAttribute('data-f');
+      apply();
+    });
+  });
+
+  // 分类标签栏：从卡片收集去重分类，动态生成到搜索框下方；点击筛选，再点取消
+  var catsBox = document.getElementById('cats');
+  var catNames = [];
+  cards.forEach(function (c) {
+    var v = c.getAttribute('data-cat');
+    if (v && catNames.indexOf(v) === -1) catNames.push(v);
+  });
+  catNames.sort(function (a, b) { return a.localeCompare(b, 'zh-Hans-CN'); });
+  catNames.forEach(function (name) {
+    var b = document.createElement('button');
+    b.className = 'cbtn';
+    b.setAttribute('data-cat', name);
+    b.textContent = name;
+    b.addEventListener('click', function () {
+      if (cat === name) { cat = ''; b.classList.remove('cbtn-on'); }
+      else {
+        cat = name;
+        Array.prototype.forEach.call(catsBox.querySelectorAll('.cbtn'), function (x) { x.classList.remove('cbtn-on'); });
+        b.classList.add('cbtn-on');
+      }
+      apply();
+    });
+    catsBox.appendChild(b);
+  });
+  if (catNames.length) catsBox.style.display = 'flex';
+})();
+</script>
+</body>
+</html>
