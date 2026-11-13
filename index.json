@@ -1,0 +1,378 @@
+{
+  "schema": 1,
+  "生成时间": "2026-11-13T19:07:11+08:00",
+  "仓库名": "先锋工作室",
+  "GitHubOwner": "XFRelease",
+  "软件": [
+    {
+      "ID": 1,
+      "英文名": "BackupCharacter",
+      "文件夹名": "BackupCharacter",
+      "中文名": "备份角色",
+      "中文分类": "方舟生存进化",
+      "英文分类": "ARK: Survival Evolved",
+      "类型": "插件",
+      "定价": "免费",
+      "价格": null,
+      "阶段": "免费版",
+      "简介": "",
+      "文档": {
+        "服主教程": "https://XFRelease.github.io/ARK-Survival-Evolved_BackupCharacter/docs/%E6%9C%8D%E4%B8%BB%E6%95%99%E7%A8%8B.html",
+        "玩家教程": "https://XFRelease.github.io/ARK-Survival-Evolved_BackupCharacter/docs/%E7%8E%A9%E5%AE%B6%E6%95%99%E7%A8%8B.html",
+        "软件简介": "https://XFRelease.github.io/ARK-Survival-Evolved_BackupCharacter/docs/%E8%BD%AF%E4%BB%B6%E7%AE%80%E4%BB%8B.html"
+      },
+      "版本": [
+        {
+          "版本号": "1.0",
+          "发布时间": "2026-09-10T10:38:19+08:00",
+          "大小": 139532,
+          "Sha256": "ee1f76e3dec8a86f83177c207c9290477e7ffb0265f72855b98c591949ae6e2b",
+          "Tag": "v1.0",
+          "GitHub": "https://github.com/XFRelease/ARK-Survival-Evolved_BackupCharacter/releases/download/v1.0/BackupCharacter_v1.0.zip",
+          "百度": "https://pan.baidu.com/s/1V8fZkPMDRE5RlFWP-YQFog?pwd=9xfs",
+          "备注": "1.重构,未测试"
+        }
+      ]
+    },
+    {
+      "ID": 2,
+      "英文名": "PreventBossEngramUnlock",
+      "文件夹名": "PreventBossEngramUnlock",
+      "中文名": "禁止BOSS解锁印痕",
+      "中文分类": "方舟生存进化",
+      "英文分类": "ARK: Survival Evolved",
+      "类型": "插件",
+      "定价": "免费",
+      "价格": null,
+      "阶段": "免费版",
+      "简介": "",
+      "文档": {
+        "服主教程": "https://XFRelease.github.io/ARK-Survival-Evolved_PreventBossEngramUnlock/docs/%E6%9C%8D%E4%B8%BB%E6%95%99%E7%A8%8B.html",
+        "玩家教程": "https://XFRelease.github.io/ARK-Survival-Evolved_PreventBossEngramUnlock/docs/%E7%8E%A9%E5%AE%B6%E6%95%99%E7%A8%8B.html",
+        "软件简介": "https://XFRelease.github.io/ARK-Survival-Evolved_PreventBossEngramUnlock/docs/%E8%BD%AF%E4%BB%B6%E7%AE%80%E4%BB%8B.html"
+      },
+      "版本": [
+        {
+          "版本号": "1.0",
+          "发布时间": "2026-09-11T02:35:59+08:00",
+          "大小": 122485,
+          "Sha256": "76941fb070ee85f1949dc50816ead12a2c6bfa0e8b3b6909493d430d6b176ead",
+          "Tag": "v1.0",
+          "GitHub": "https://github.com/XFRelease/ARK-Survival-Evolved_PreventBossEngramUnlock/releases/download/v1.0/PreventBossEngramUnlock_v1.0.zip",
+          "百度": "https://pan.baidu.com/s/1yI5A1tBTaOnLvc0DLv0GCA?pwd=8rke",
+          "备注": "1.重构,未测试"
+        }
+      ]
+    },
+    {
+      "ID": 3,
+      "英文名": "RatesScheduler",
+      "文件夹名": "RatesScheduler",
+      "中文名": "倍率调整器",
+      "中文分类": "方舟生存进化",
+      "英文分类": "ARK: Survival Evolved",
+      "类型": "插件",
+      "定价": "免费",
+      "价格": null,
+      "阶段": "免费版",
+      "简介": "",
+      "文档": {
+        "服主教程": "https://XFRelease.github.io/ARK-Survival-Evolved_RatesScheduler/docs/%E6%9C%8D%E4%B8%BB%E6%95%99%E7%A8%8B.html",
+        "玩家教程": "https://XFRelease.github.io/ARK-Survival-Evolved_RatesScheduler/docs/%E7%8E%A9%E5%AE%B6%E6%95%99%E7%A8%8B.html",
+        "软件简介": "https://XFRelease.github.io/ARK-Survival-Evolved_RatesScheduler/docs/%E8%BD%AF%E4%BB%B6%E7%AE%80%E4%BB%8B.html"
+      },
+      "版本": [
+        {
+          "版本号": "1.0",
+          "发布时间": "2026-09-11T02:36:33+08:00",
+          "大小": 2704964,
+          "Sha256": "83f3cb5d73a4c0579a406948b3e3227d9d20d47f1fa3e05247ded5282c8ea1ad",
+          "Tag": "v1.0",
+          "GitHub": "https://github.com/XFRelease/ARK-Survival-Evolved_RatesScheduler/releases/download/v1.0/RatesScheduler_v1.0.zip",
+          "百度": "https://pan.baidu.com/s/1HuCfW_xyvys_GfQWaGJ8-A?pwd=74hs",
+          "备注": "1.重构,未测试"
+        }
+      ]
+    },
+    {
+      "ID": 4,
+      "英文名": "VIPmap",
+      "文件夹名": "VIPmap",
+      "中文名": "会员地图",
+      "中文分类": "方舟生存进化",
+      "英文分类": "ARK: Survival Evolved",
+      "类型": "插件",
+      "定价": "免费",
+      "价格": null,
+      "阶段": "免费版",
+      "简介": "",
+      "文档": {
+        "服主教程": "https://XFRelease.github.io/ARK-Survival-Evolved_VIPmap/docs/%E6%9C%8D%E4%B8%BB%E6%95%99%E7%A8%8B.html",
+        "玩家教程": "https://XFRelease.github.io/ARK-Survival-Evolved_VIPmap/docs/%E7%8E%A9%E5%AE%B6%E6%95%99%E7%A8%8B.html",
+        "软件简介": "https://XFRelease.github.io/ARK-Survival-Evolved_VIPmap/docs/%E8%BD%AF%E4%BB%B6%E7%AE%80%E4%BB%8B.html"
+      },
+      "版本": [
+        {
+          "版本号": "1.0",
+          "发布时间": "2026-09-11T03:25:41+08:00",
+          "大小": 134822,
+          "Sha256": "8461675f7e65614f088a9e81c769d71efbde920d45945b6c4b8179e8ea81e849",
+          "Tag": "v1.0",
+          "GitHub": "https://github.com/XFRelease/ARK-Survival-Evolved_VIPmap/releases/download/v1.0/VIPmap_v1.0.zip",
+          "百度": "https://pan.baidu.com/s/1ikwjlVNl3gaS_qu8JNPQ3Q?pwd=9q6a",
+          "备注": "1.重构,未测试"
+        }
+      ]
+    },
+    {
+      "ID": 5,
+      "英文名": "XFunlockEngram",
+      "文件夹名": "XFunlockEngram",
+      "中文名": "一键解锁",
+      "中文分类": "方舟生存进化",
+      "英文分类": "ARK: Survival Evolved",
+      "类型": "插件",
+      "定价": "免费",
+      "价格": null,
+      "阶段": "免费版",
+      "简介": "",
+      "文档": {
+        "服主教程": "https://XFRelease.github.io/ARK-Survival-Evolved_XFunlockEngram/docs/%E6%9C%8D%E4%B8%BB%E6%95%99%E7%A8%8B.html",
+        "玩家教程": "https://XFRelease.github.io/ARK-Survival-Evolved_XFunlockEngram/docs/%E7%8E%A9%E5%AE%B6%E6%95%99%E7%A8%8B.html",
+        "软件简介": "https://XFRelease.github.io/ARK-Survival-Evolved_XFunlockEngram/docs/%E8%BD%AF%E4%BB%B6%E7%AE%80%E4%BB%8B.html"
+      },
+      "版本": [
+        {
+          "版本号": "1.0",
+          "发布时间": "2026-09-11T03:59:14+08:00",
+          "大小": 137857,
+          "Sha256": "22df4ec60ce8fc5cf8472d61a3f0009e3203f96ca488f007159ecf22fd51ede2",
+          "Tag": "v1.0",
+          "GitHub": "https://github.com/XFRelease/ARK-Survival-Evolved_XFunlockEngram/releases/download/v1.0/XFunlockEngram_v1.0.zip",
+          "百度": "https://pan.baidu.com/s/1-TRBKHJascFko_u3dGoGSQ?pwd=dxf7",
+          "备注": "1.重构,未测试"
+        }
+      ]
+    },
+    {
+      "ID": 6,
+      "英文名": "PreventCloningEnemyDinos",
+      "文件夹名": "PreventCloningEnemyDinos",
+      "中文名": "禁止克隆敌对恐龙",
+      "中文分类": "方舟生存进化",
+      "英文分类": "ARK: Survival Evolved",
+      "类型": "插件",
+      "定价": "免费",
+      "价格": null,
+      "阶段": "免费版",
+      "简介": "",
+      "文档": {
+        "服主教程": "https://XFRelease.github.io/ARK-Survival-Evolved_PreventCloningEnemyDinos/docs/%E6%9C%8D%E4%B8%BB%E6%95%99%E7%A8%8B.html",
+        "玩家教程": "https://XFRelease.github.io/ARK-Survival-Evolved_PreventCloningEnemyDinos/docs/%E7%8E%A9%E5%AE%B6%E6%95%99%E7%A8%8B.html",
+        "软件简介": "https://XFRelease.github.io/ARK-Survival-Evolved_PreventCloningEnemyDinos/docs/%E8%BD%AF%E4%BB%B6%E7%AE%80%E4%BB%8B.html"
+      },
+      "版本": [
+        {
+          "版本号": "1.0",
+          "发布时间": "2026-09-11T04:43:10+08:00",
+          "大小": 135501,
+          "Sha256": "4520e086389f0690573fba1a3270b5e76037547be149496a914fffa94e01f221",
+          "Tag": "v1.0",
+          "GitHub": "https://github.com/XFRelease/ARK-Survival-Evolved_PreventCloningEnemyDinos/releases/download/v1.0/PreventCloningEnemyDinos_v1.0.zip",
+          "百度": "https://pan.baidu.com/s/1WgI5DSMOQ_S9LTZMBmLTRA?pwd=exyd",
+          "备注": "1.重构,未测试"
+        }
+      ]
+    },
+    {
+      "ID": 7,
+      "英文名": "AdjustCraftingTime",
+      "文件夹名": "AdjustCraftingTime",
+      "中文名": "修改物品制作时间",
+      "中文分类": "方舟生存进化",
+      "英文分类": "ARK: Survival Evolved",
+      "类型": "插件",
+      "定价": "免费",
+      "价格": null,
+      "阶段": "免费版",
+      "简介": "",
+      "文档": {
+        "服主教程": "https://XFRelease.github.io/ARK-Survival-Evolved_AdjustCraftingTime/docs/%E6%9C%8D%E4%B8%BB%E6%95%99%E7%A8%8B.html",
+        "玩家教程": "https://XFRelease.github.io/ARK-Survival-Evolved_AdjustCraftingTime/docs/%E7%8E%A9%E5%AE%B6%E6%95%99%E7%A8%8B.html",
+        "软件简介": "https://XFRelease.github.io/ARK-Survival-Evolved_AdjustCraftingTime/docs/%E8%BD%AF%E4%BB%B6%E7%AE%80%E4%BB%8B.html"
+      },
+      "版本": [
+        {
+          "版本号": "1.0",
+          "发布时间": "2026-09-11T04:43:41+08:00",
+          "大小": 128762,
+          "Sha256": "8ddd28fc3d31287082a51903f72515aae36930e9e2221ca68e76977a7f26b736",
+          "Tag": "v1.0",
+          "GitHub": "https://github.com/XFRelease/ARK-Survival-Evolved_AdjustCraftingTime/releases/download/v1.0/AdjustCraftingTime_v1.0.zip",
+          "百度": "https://pan.baidu.com/s/1lb7aQubMv9YZ8ejBRr2ROw?pwd=7sqg",
+          "备注": "1.重构,未测试"
+        }
+      ]
+    },
+    {
+      "ID": 8,
+      "英文名": "PreventUpload",
+      "文件夹名": "PreventUpload",
+      "中文名": "禁止上传光柱",
+      "中文分类": "方舟生存进化",
+      "英文分类": "ARK: Survival Evolved",
+      "类型": "插件",
+      "定价": "免费",
+      "价格": null,
+      "阶段": "免费版",
+      "简介": "",
+      "文档": {
+        "服主教程": "https://XFRelease.github.io/ARK-Survival-Evolved_PreventUpload/docs/%E6%9C%8D%E4%B8%BB%E6%95%99%E7%A8%8B.html",
+        "玩家教程": "https://XFRelease.github.io/ARK-Survival-Evolved_PreventUpload/docs/%E7%8E%A9%E5%AE%B6%E6%95%99%E7%A8%8B.html",
+        "软件简介": "https://XFRelease.github.io/ARK-Survival-Evolved_PreventUpload/docs/%E8%BD%AF%E4%BB%B6%E7%AE%80%E4%BB%8B.html"
+      },
+      "版本": [
+        {
+          "版本号": "1.0",
+          "发布时间": "2026-09-11T05:50:07+08:00",
+          "大小": 126694,
+          "Sha256": "6ec54c09207d07c8a190db17f7cec717426bab8a4796ee9862f6d627028599f9",
+          "Tag": "v1.0",
+          "GitHub": "https://github.com/XFRelease/ARK-Survival-Evolved_PreventUpload/releases/download/v1.0/PreventUpload_v1.0.zip",
+          "百度": "https://pan.baidu.com/s/1sweUUsS1-Z3srG3ZsrWmPg?pwd=3qa7",
+          "备注": "1.重构,未测试"
+        }
+      ]
+    },
+    {
+      "ID": 9,
+      "英文名": "TryMultiUse",
+      "文件夹名": "TryMultiUse",
+      "中文名": "禁止使用转盘",
+      "中文分类": "方舟生存进化",
+      "英文分类": "ARK: Survival Evolved",
+      "类型": "插件",
+      "定价": "免费",
+      "价格": null,
+      "阶段": "免费版",
+      "简介": "",
+      "文档": {
+        "服主教程": "https://XFRelease.github.io/ARK-Survival-Evolved_TryMultiUse/docs/%E6%9C%8D%E4%B8%BB%E6%95%99%E7%A8%8B.html",
+        "玩家教程": "https://XFRelease.github.io/ARK-Survival-Evolved_TryMultiUse/docs/%E7%8E%A9%E5%AE%B6%E6%95%99%E7%A8%8B.html",
+        "软件简介": "https://XFRelease.github.io/ARK-Survival-Evolved_TryMultiUse/docs/%E8%BD%AF%E4%BB%B6%E7%AE%80%E4%BB%8B.html"
+      },
+      "版本": [
+        {
+          "版本号": "1.1",
+          "发布时间": "2026-09-11T09:18:20+08:00",
+          "大小": 145684,
+          "Sha256": "fc37a31004faf7a49c71f1839f3f07ed20c4ebbc02e8738e331166bb2943704a",
+          "Tag": "v1.1",
+          "GitHub": "https://github.com/XFRelease/ARK-Survival-Evolved_TryMultiUse/releases/download/v1.1/TryMultiUse_v1.1.zip",
+          "百度": "https://pan.baidu.com/s/1RwS_orMmZ0Am915yJVUBww?pwd=we82",
+          "备注": "1.重构,未测试"
+        },
+        {
+          "版本号": "1.0",
+          "发布时间": "2026-09-11T06:09:35+08:00",
+          "大小": 146706,
+          "Sha256": "f2d2c61a68b0d989b37fc939c13d54f9e295eaf3d75918577993f9da4843f354",
+          "Tag": "v1.0",
+          "GitHub": "https://github.com/XFRelease/ARK-Survival-Evolved_TryMultiUse/releases/download/v1.0/TryMultiUse_v1.0.zip",
+          "百度": "https://pan.baidu.com/s/1P61IPtMkoch5Cvp3CCjpww?pwd=z3ts",
+          "备注": "1.重构,未测试"
+        }
+      ]
+    },
+    {
+      "ID": 10,
+      "英文名": "PreventCrafting",
+      "文件夹名": "PreventCrafting",
+      "中文名": "禁止制作",
+      "中文分类": "方舟生存进化",
+      "英文分类": "ARK: Survival Evolved",
+      "类型": "插件",
+      "定价": "免费",
+      "价格": null,
+      "阶段": "免费版",
+      "简介": "",
+      "文档": {
+        "服主教程": "https://XFRelease.github.io/ARK-Survival-Evolved_PreventCrafting/docs/%E6%9C%8D%E4%B8%BB%E6%95%99%E7%A8%8B.html",
+        "玩家教程": "https://XFRelease.github.io/ARK-Survival-Evolved_PreventCrafting/docs/%E7%8E%A9%E5%AE%B6%E6%95%99%E7%A8%8B.html",
+        "软件简介": "https://XFRelease.github.io/ARK-Survival-Evolved_PreventCrafting/docs/%E8%BD%AF%E4%BB%B6%E7%AE%80%E4%BB%8B.html"
+      },
+      "版本": [
+        {
+          "版本号": "1.0",
+          "发布时间": "2026-09-11T07:15:16+08:00",
+          "大小": 133701,
+          "Sha256": "130b190f940a781a9a3c0789f3f7e1e32be40a89b15de02270107bf5ef6d8db6",
+          "Tag": "v1.0",
+          "GitHub": "https://github.com/XFRelease/ARK-Survival-Evolved_PreventCrafting/releases/download/v1.0/PreventCrafting_v1.0.zip",
+          "百度": "https://pan.baidu.com/s/1BTf3lJIgFgOjGzXAYu3qdg?pwd=nzb2",
+          "备注": "1.重构,未测试"
+        }
+      ]
+    },
+    {
+      "ID": 11,
+      "英文名": "RespawnKit",
+      "文件夹名": "RespawnKit",
+      "中文名": "重生赐装",
+      "中文分类": "方舟生存进化",
+      "英文分类": "ARK: Survival Evolved",
+      "类型": "插件",
+      "定价": "免费",
+      "价格": null,
+      "阶段": "免费版",
+      "简介": "",
+      "文档": {
+        "服主教程": "https://XFRelease.github.io/ARK-Survival-Evolved_RespawnKit/docs/%E6%9C%8D%E4%B8%BB%E6%95%99%E7%A8%8B.html",
+        "玩家教程": "https://XFRelease.github.io/ARK-Survival-Evolved_RespawnKit/docs/%E7%8E%A9%E5%AE%B6%E6%95%99%E7%A8%8B.html",
+        "软件简介": "https://XFRelease.github.io/ARK-Survival-Evolved_RespawnKit/docs/%E8%BD%AF%E4%BB%B6%E7%AE%80%E4%BB%8B.html"
+      },
+      "版本": [
+        {
+          "版本号": "1.0",
+          "发布时间": "2026-09-11T10:36:37+08:00",
+          "大小": 152100,
+          "Sha256": "9cb274353c6143f13f98733b9db4f825190b7d51c2ed5a21f3c3eec73f9dd089",
+          "Tag": "v1.0",
+          "GitHub": "https://github.com/XFRelease/ARK-Survival-Evolved_RespawnKit/releases/download/v1.0/RespawnKit_v1.0.zip",
+          "百度": "https://pan.baidu.com/s/1elFrs1hClNYskTMaQ0Gj9w?pwd=h2x2",
+          "备注": "1.重构,未测试"
+        }
+      ]
+    },
+    {
+      "ID": 12,
+      "英文名": "DamageDisplayToggle",
+      "文件夹名": "DamageDisplayToggle",
+      "中文名": "伤害显示开关",
+      "中文分类": "方舟生存进化",
+      "英文分类": "ARK: Survival Evolved",
+      "类型": "插件",
+      "定价": "免费",
+      "价格": null,
+      "阶段": "免费版",
+      "简介": "",
+      "文档": {
+        "服主教程": "https://XFRelease.github.io/ARK-Survival-Evolved_DamageDisplayToggle/docs/%E6%9C%8D%E4%B8%BB%E6%95%99%E7%A8%8B.html",
+        "玩家教程": "https://XFRelease.github.io/ARK-Survival-Evolved_DamageDisplayToggle/docs/%E7%8E%A9%E5%AE%B6%E6%95%99%E7%A8%8B.html",
+        "软件简介": "https://XFRelease.github.io/ARK-Survival-Evolved_DamageDisplayToggle/docs/%E8%BD%AF%E4%BB%B6%E7%AE%80%E4%BB%8B.html"
+      },
+      "版本": [
+        {
+          "版本号": "1.0",
+          "发布时间": "2026-09-13T08:05:12+08:00",
+          "大小": 587995,
+          "Sha256": "13ae47bd7028d91d3b2beddb9fc30c07db56e1866f3c1592c3ffd2e384564702",
+          "Tag": "v1.0",
+          "GitHub": "https://github.com/XFRelease/ARK-Survival-Evolved_DamageDisplayToggle/releases/download/v1.0/DamageDisplayToggle_v1.0.zip",
+          "百度": "https://pan.baidu.com/s/1N2_0Dj54ZvkJnDhzNC45Tg?pwd=ksn7",
+          "备注": "1.重构,未测试"
+        }
+      ]
+    }
+  ]
+}
